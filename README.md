@@ -1,6 +1,9 @@
+Hi there!
+
 # Stock-Trading-Simulation
 
 ## Overview
+
 The Stock Trading System is a C++ application that simulates a stock trading environment. It allows multiple traders to buy and sell stocks and maintains an order book for processing these orders. This README provides an overview of the project, its design, and instructions for running the application.
 
 ## Project Structure
@@ -12,6 +15,7 @@ The project is organized into several key components:
 - **main.cpp**: The entry point of the program.
 
 ### Classes
+
 The following key classes are part of the project:
 
 - **Trader**: Represents a trader who can buy and sell stocks.
@@ -37,7 +41,7 @@ The project uses the following design patterns:
 To run the Stock Trading System application, follow these steps:
 
 1. Clone repository.
-   
+
    ```bash
    git clone https://github.com/vamshikrishnaav/Stock-Trading-Simulation
    ```
@@ -46,12 +50,13 @@ To run the Stock Trading System application, follow these steps:
    mkdir build
    cd StockTradingSystem/build
    ```
-   
+
    ```bash
    make
    ```
-   
+
 2. Execute the compiled binary.
+
    ```bash
    ./my_app
    ```
